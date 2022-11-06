@@ -30,6 +30,7 @@ a {
 
 .btn {
   border-radius: 30px;
+  cursor: pointer;
   display: inline-block;
   padding: 15px 20px;
   font-size: 14px;
@@ -43,9 +44,20 @@ a {
   color: #222;
 }
 
+.btn-secondary {
+  background-color: #222;
+  color: #fff;
+}
+
 .btn-primary:hover {
   background-color: #222;
   color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  border: 1px solid #222;
+  color: #222;
 }
 
 .container {
@@ -66,6 +78,11 @@ hr {
 .my-10 {
   margin-bottom: 10px;
   margin-top: 10px;
+}
+
+.my-20 {
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* Header */
@@ -150,4 +167,22 @@ header nav ul li a {
 .bg-picture {
   background: url(../images/cafe3.jpg) center center/cover;
   height: 400px;
+}
+
+/* RESERVATION */
+.reservation {
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p {
+  margin-bottom: 0;
 }
